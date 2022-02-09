@@ -71,12 +71,6 @@ void loadGalaxy() {
 }
 
 int main(int argc, char** argv) {
-	/*Body b1(1e8, -100, -100, 50, 0);
-	Body b2(1e8, -100, 100, 0, -50);
-	Body b3(1e8, 100, -100, 0, 50);
-	Body b4(1e8, 100, 100, -50, 0);
-	Body center(1e17, 0, 0, 0, 0);
-	*/
 	srand(time(0));
 	loadGalaxy();
 	glutInit(&argc, argv);
